@@ -16,3 +16,5 @@ export function useOutsideClick<T extends HTMLElement>(callback: () => void) {
   }, [callback]);
   return ref;
 }
+
+// the hook to handle the outside click for the mobile menu
