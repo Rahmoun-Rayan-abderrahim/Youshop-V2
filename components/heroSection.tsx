@@ -25,15 +25,7 @@ const HeroSection = () => {
             </Link>
           </div>
 
-          <div className="relative w-full h-64 md:w-1/2 md:h-96">
-            <Image
-              src="/heroBgImg.png"
-              alt="Hero Image"
-              fill
-              className="w-lg h-auto rounded-lg shadow-lg"
-              style={{ objectFit: "cover", objectPosition: "center" }}
-            />
-          </div>
+          <div className="relative w-full h-64 md:w-1/2 md:h-96"></div>
         </div>
       </Containner>
     </section>
